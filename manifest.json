@@ -3,6 +3,7 @@
   "description": "Ensures requests to X redirect to Nitter (a privacy friendly alternative), via a regex-based declarative ruleset (no client-side scripts).",
   "version": "1.0.0",
   "manifest_version": 3,
+  "update_url": "https://reubenukgb.github.io/nitter-redirect/update.xml",
   "browser_specific_settings": {
     "gecko": {
       "id": "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}",
@@ -22,9 +23,6 @@
     "*://x.com/*",
     "*://www.x.com/*",
     "*://mobile.x.com/*",
-    "*://twitter.com/*",
-    "*://www.twitter.com/*",
-    "*://mobile.twitter.com/*",
     "*://pbs.twimg.com/*",
     "*://video.twimg.com/*"
   ],

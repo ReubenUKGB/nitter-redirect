@@ -3,7 +3,7 @@
   "description": "Ensures requests to X redirect to Nitter (a privacy friendly alternative), via a regex-based declarative ruleset (no client-side scripts).",
   "version": "1.0.0",
   "scripts": {
-    "build": "zip -r nitter-redirect.zip . -x \"./node_modules/**\" \"./node_modules/*\" \"./.git/*\" \"./img/screenshot.png\" \"./.gitignore\" \"./package.json\" \"./package-lock.json\" \"./_metadata/**\" \"./_metadata/*\"",
+    "build": "zip -r nitter-redirect.zip . -x \"./.git/*\" \"./node_modules/**\" \"./node_modules/*\" \"./_metadata/**\" \"./_metadata/*\" \"./img/screenshot.png\" \"./.gitignore\" \"./package.json\" \"./package-lock.json\" \"./update.xml\" \"./nitter-redirect.crx\"",
     "start": "npx web-ext run --target=chromium",
     "clean": "rm nitter-redirect.zip"
   },
