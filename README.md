@@ -11,9 +11,11 @@
 
 # Supported Platforms
 
-- Reddit
-- X
-- Youtube
+|Platform|Frontend|Instance|
+|:---:|:---:|:---:|
+|Reddit|Redlib|`redlib.perennialte.ch`|
+|X|Nitter|`nitter.net`|
+|Youtube|Invidious|`inv.nadeko.net`|
   
 ## F.A.Q
 
