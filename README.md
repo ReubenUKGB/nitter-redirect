@@ -11,15 +11,17 @@
 
 # Supported Platforms
 
-- Reddit
-- X
-- Youtube
+|Platform|Proxy Frontend|Redirected Instance|Default Value|
+|:---:|:---:|:---:|:---:|
+|Reddit|Redlib|`redlib.perennialte.ch`|`Enabled`|
+|X|Nitter|`nitter.net`|`Enabled`|
+|Youtube|Invidious|`inv.nadeko.net`|`Enabled`|
   
 ## F.A.Q
 
-**Q:** 
+**Q:** How do I disable redirects for specific platforms?
 
-**A:** 
+**A:** Redirects can be disabled by removing site access for related domains in the extensions details page.
 
 ## Notes
 
