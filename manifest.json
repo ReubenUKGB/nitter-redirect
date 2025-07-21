@@ -23,7 +23,7 @@
         "https://x.com/i/broadcasts/*",
         "https://mobile.x.com/i/broadcasts/*"
       ],
-      "css": ["styles/styles.css"]
+      "css": ["styles/x-main.css"]
     }
   ],
   "permissions": ["declarativeNetRequestWithHostAccess"],
