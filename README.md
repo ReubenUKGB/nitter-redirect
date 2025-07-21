@@ -11,7 +11,7 @@
 
 # Supported Platforms
 
-|Platform|Proxy Frontend|Instance|Default Value|
+|Platform|Proxy Frontend|Redirected Instance|Default Value|
 |:---:|:---:|:---:|:---:|
 |Reddit|Redlib|`redlib.perennialte.ch`|`Enabled`|
 |X|Nitter|`nitter.net`|`Enabled`|
@@ -19,9 +19,9 @@
   
 ## F.A.Q
 
-**Q:** How do I disable a redirect for a specific platform?
+**Q:** How do I disable redirects for a specific platforms?
 
-**A:** A redirect can be disabled by removing site access for related domains in the extension details page.
+**A:** Redirects can be disabled by removing site access for related domains in the extensions details page.
 
 ## Notes
 
