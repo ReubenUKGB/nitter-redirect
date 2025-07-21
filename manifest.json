@@ -1,6 +1,6 @@
 {
-  "name": "Nitter Redirect",
-  "description": "Ensures requests to X redirect to Nitter (a privacy friendly alternative), via a regex-based declarative ruleset (no client-side scripts).",
+  "name": "Privacy Redirect Plus",
+  "description": "A lightweight tool that ensures requests to various platforms redirect to their privacy-focused alternative frontends.",
   "version": "1.0.0",
   "manifest_version": 3,
   "browser_specific_settings": {
@@ -19,18 +19,30 @@
   },
   "permissions": ["declarativeNetRequestWithHostAccess"],
   "host_permissions": [
-    "*://x.com/*",
-    "*://www.x.com/*",
+    "*://m.youtube.com/*",
     "*://mobile.x.com/*",
-    "*://pbs.twimg.com/*",
-    "*://video.twimg.com/*"
+    "*://nitter.net/*",
+    "*://www.reddit.com/*",
+    "*://www.x.com/*",
+    "*://www.youtube.com/*",
+    "*://x.com/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
       {
-        "id": "nitter_redirect_ruleset",
+        "id": "reddit_redirect_ruleset",
         "enabled": true,
-        "path": "nitter_rules.json"
+        "path": "reddit_rules.json"
+      },
+      {
+        "id": "x_redirect_ruleset",
+        "enabled": true,
+        "path": "x_rules.json"
+      },
+      {
+        "id": "youtube_redirect_ruleset",
+        "enabled": true,
+        "path": "youtube_rules.json"
       }
     ]
   }

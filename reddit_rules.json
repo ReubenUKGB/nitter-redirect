@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "https://www.reddit.com/",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "host": "redlib.perennialte.ch"
+        }
+      }
+    }
+  }
+]
