@@ -11,11 +11,11 @@
 
 # Supported Platforms
 
-|Platform|Proxy Frontend|Redirected Instance|Default Value|
+|Service|Proxy Frontend|Instance Used|Enabled|
 |:---:|:---:|:---:|:---:|
-|Reddit|Redlib|`redlib.perennialte.ch`|`Enabled`|
-|X|Nitter|`nitter.net`|`Enabled`|
-|Youtube|Invidious|`inv.nadeko.net`|`Enabled`|
+|Reddit|Redlib|`redlib.perennialte.ch`|`True`|
+|X|Nitter|`nitter.net`|`True`|
+|Youtube|Invidious|`inv.nadeko.net`|`True`|
   
 ## F.A.Q
 
