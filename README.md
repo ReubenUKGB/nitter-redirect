@@ -19,7 +19,7 @@
   
 ## F.A.Q
 
-**Q:** How do I disable redirects for a specific platforms?
+**Q:** How do I disable redirects for specific platforms?
 
 **A:** Redirects can be disabled by removing site access for related domains in the extensions details page.
 
