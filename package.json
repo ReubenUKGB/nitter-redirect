@@ -5,7 +5,7 @@
   "scripts": {
     "build": "zip -r privacy-redirect-plus.zip . -x \"./.git/*\" \"./node_modules/**\" \"./node_modules/*\" \"./_metadata/**\" \"./_metadata/*\" \"./img/screenshot.png\" \"./.gitignore\" \"./package.json\" \"./package-lock.json\"",
     "dev": "npx web-ext run --target=chromium",
-    "clean": "rm privacy-redirect-plus.zip"
+    "clean": "rm -r privacy-redirect-plus.zip _metadata"
   },
   "devDependencies": {
     "web-ext": "^7.12.0"
