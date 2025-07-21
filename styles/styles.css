@@ -1,4 +1,3 @@
-/*for x broadcast page, redirect doesn't work atm*/
 div[data-testid="BottomBar"] {
   display: none !important;
 }
