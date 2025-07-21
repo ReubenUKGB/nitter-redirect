@@ -17,13 +17,18 @@
     "96": "img/icon96.png",
     "128": "img/icon128.png"
   },
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/i/broadcasts/*"],
+      "css": ["styles.css"]
+    }
+  ],
   "permissions": ["declarativeNetRequestWithHostAccess"],
   "host_permissions": [
     "*://m.youtube.com/*",
     "*://mobile.x.com/*",
     "*://nitter.net/*",
     "*://www.reddit.com/*",
-    "*://www.x.com/*",
     "*://www.youtube.com/*",
     "*://x.com/*"
   ],
