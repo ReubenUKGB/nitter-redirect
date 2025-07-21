@@ -20,7 +20,7 @@
   "content_scripts": [
     {
       "matches": ["https://x.com/i/broadcasts/*"],
-      "css": ["styles.css"]
+      "css": ["styles/styles.css"]
     }
   ],
   "permissions": ["declarativeNetRequestWithHostAccess"],
@@ -37,17 +37,17 @@
       {
         "id": "reddit_redirect_ruleset",
         "enabled": true,
-        "path": "reddit_rules.json"
+        "path": "config/reddit_rules.json"
       },
       {
         "id": "x_redirect_ruleset",
         "enabled": true,
-        "path": "x_rules.json"
+        "path": "config/x_rules.json"
       },
       {
         "id": "youtube_redirect_ruleset",
         "enabled": true,
-        "path": "youtube_rules.json"
+        "path": "config/youtube_rules.json"
       }
     ]
   }
