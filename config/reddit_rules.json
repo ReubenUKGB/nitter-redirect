@@ -3,7 +3,7 @@
     "id": 1,
     "priority": 1,
     "condition": {
-      "urlFilter": "https://www.reddit.com/",
+      "regexFilter": "^https://www\\.reddit\\.com/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {
