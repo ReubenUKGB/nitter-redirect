@@ -11,7 +11,7 @@
 
 # Supported Platforms
 
-|Service|Domains Redirected|Paths Redirected|Proxy Frontend|Instance Used|Enabled|
+|Platform|Domains Redirected|Paths Redirected|Proxy Frontend|Instance Used|Enabled|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |Medium|`medium.com`|`*`|Scribe|`scribe.rip`|`True`|
 |Reddit|`www.reddit.com`|`*`|Redlib|`redlib.perennialte.ch`|`True`|
