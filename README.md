@@ -11,11 +11,11 @@
 
 # Supported Platforms
 
-|Service|Proxy Frontend|Instance Used|Enabled|
-|:---:|:---:|:---:|:---:|
-|Reddit|Redlib|`redlib.perennialte.ch`|`True`|
-|X|Nitter|`nitter.net`|`True`|
-|Youtube|Invidious|`inv.nadeko.net`|`True`|
+|Service|Domains Redirected|Proxy Frontend|Instance Used|Enabled|
+|:---:|:---:|:---:|:---:|:---:|
+|Reddit||Redlib|`redlib.perennialte.ch`|`True`|
+|X||Nitter|`nitter.net`|`True`|
+|Youtube||Invidious|`inv.nadeko.net`|`True`|
 
 # Supported Browsers
 
