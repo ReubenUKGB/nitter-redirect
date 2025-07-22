@@ -13,6 +13,7 @@
 
 |Service|Domains Redirected|Paths Redirected|Proxy Frontend|Instance Used|Enabled|
 |:---:|:---:|:---:|:---:|:---:|:---:|
+|Medium|`medium.com`|`*`|Scribe|`scribe.rip`|`True`|
 |Reddit|`www.reddit.com`|`*`|Redlib|`redlib.perennialte.ch`|`True`|
 |X|`mobile.x.com`, `x.com`|`*`, `i/broadcasts/*`|Nitter|`nitter.net`|`True`|
 |Youtube|`m.youtube.com`, `www.youtube.com`|`*`|Invidious|`inv.nadeko.net`|`True`|
