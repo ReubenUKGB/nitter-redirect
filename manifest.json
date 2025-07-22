@@ -26,7 +26,7 @@
       "css": ["styles/x-main.css"]
     }
   ],
-  "permissions": ["declarativeNetRequestWithHostAccess"],
+  "permissions": ["declarativeNetRequest"],
   "host_permissions": [
     "*://m.youtube.com/*",
     "*://medium.com/*",
