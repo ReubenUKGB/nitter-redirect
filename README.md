@@ -35,7 +35,7 @@
 
 **Q:** Will there be a more expanded version to solve some of the shortfalls of not including client-side script?
 
-**A:** I will make a more dynamic "plus" edition which will use this version as a base but with client-side script for quality-of-life improvements.
+**A:** I will make a more dynamic "plus" edition which will use this version as a base but with client-side script for quality-of-life improvements, when I have the time.
 
 ## Development
 
