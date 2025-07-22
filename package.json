@@ -1,7 +1,7 @@
 {
   "name": "simple-privacy-redirect",
   "description": "A lightweight tool that ensures requests to various platforms redirect to their privacy-focused alternative frontends.",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "scripts": {
     "build": "zip -r simple-privacy-redirect.zip . -x \"./.git/*\" \"./node_modules/**\" \"./node_modules/*\" \"./_metadata/**\" \"./_metadata/*\" \"./.gitignore\" \"./package.json\" \"./package-lock.json\"",
     "dev": "npx web-ext run --target=chromium",
