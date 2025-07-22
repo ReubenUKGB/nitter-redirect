@@ -16,6 +16,12 @@
 |Reddit|Redlib|`redlib.perennialte.ch`|`True`|
 |X|Nitter|`nitter.net`|`True`|
 |Youtube|Invidious|`inv.nadeko.net`|`True`|
+
+# Supported Browsers
+
+|Browser|Supported|
+|:---:|:---:|
+|Chrome|`True`|
   
 ## F.A.Q
 
@@ -30,8 +36,8 @@ Install [Node and NPM](https://docs.npmjs.com/downloading-and-installing-node-js
 |Command|Description|
 |:---:|:---:|
 |`npm run build`|Packages necessary assets into a ZIP file.|
-|`npm run clean`|Deletes auto-generated/packaged files and folders.|
 |`npm run dev`|Starts live-reloading development server and opens a targeted browser window for testing.|
+|`npm run clean`|Deletes auto-generated/packaged files and folders.|
 
 ## Notes
 
