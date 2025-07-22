@@ -21,7 +21,7 @@
 
 |Browser|Supported|
 |:---:|:---:|
-|Chrome|`True`|
+|Chrome|Yes|
   
 ## F.A.Q
 
