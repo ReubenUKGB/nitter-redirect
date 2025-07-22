@@ -29,6 +29,7 @@
   "permissions": ["declarativeNetRequestWithHostAccess"],
   "host_permissions": [
     "*://m.youtube.com/*",
+    "*://medium.com/*",
     "*://mobile.x.com/*",
     "*://nitter.net/*",
     "*://www.reddit.com/*",
@@ -41,6 +42,11 @@
         "id": "reddit_redirect_ruleset",
         "enabled": true,
         "path": "config/reddit_rules.json"
+      },
+      {
+        "id": "medium_redirect_ruleset",
+        "enabled": true,
+        "path": "config/medium_rules.json"
       },
       {
         "id": "x_redirect_ruleset",
