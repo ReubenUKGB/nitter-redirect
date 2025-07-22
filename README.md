@@ -5,7 +5,7 @@
 ## What this browser extension does
 - Redirects requests of various platforms to their privacy-focused alternative frontends.
   
-- Does not include any client-side script.
+- Does not include any client-side script to keep it minimally invasive.
 
 - Uses regex-based declarative rulesets and browser permissions to function.
 
@@ -28,6 +28,14 @@
 **Q:** How do I disable redirects for specific platforms?
 
 **A:** Redirects can be disabled by removing site access for related domains in the extensions details page.
+
+**Q:** Why don't some redirects work if I click a link that should redirect?
+
+**A:** Some redirects won't work if the site uses client-side navigation as no new network request occurs.
+
+**Q:** Will there be a more expanded version to solve some of the shortfalls of no client-side script?
+
+**A:** I will make a more dynamic "plus" edition which will use this version as a base but with client-side script for quality-of-life improvements.
 
 ## Development
 
