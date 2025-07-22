@@ -13,9 +13,9 @@
 
 |Service|Domains Redirected|Proxy Frontend|Instance Used|Enabled|
 |:---:|:---:|:---:|:---:|:---:|
-|Reddit||Redlib|`redlib.perennialte.ch`|`True`|
-|X||Nitter|`nitter.net`|`True`|
-|Youtube||Invidious|`inv.nadeko.net`|`True`|
+|Reddit|`www.reddit.com`|Redlib|`redlib.perennialte.ch`|`True`|
+|X|`mobile.x.com`, `x.com`, `nitter.net`|Nitter|`nitter.net`|`True`|
+|Youtube|`m.youtube.com`, `www.youtube.com`|Invidious|`inv.nadeko.net`|`True`|
 
 # Supported Browsers
 
