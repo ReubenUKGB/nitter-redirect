@@ -25,7 +25,7 @@
 
 ## Development
 
-Install [Node and NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), clone this repo and then run `npm i` in the root directory of the project to install all of the necessary libraries.
+Install [Node and NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), clone this repo and then run `npm i` in the root directory of the project to install all of the required libraries.
 
 |Command|Description|
 |:---:|:---:|
