@@ -1,6 +1,7 @@
 # Simple Privacy Redirect
 
-<img width="1920" height="1080" alt="privacy-redirect-plus-image" src="https://github.com/user-attachments/assets/c6a764b0-7bd1-48cf-81bb-c49276710ca5" />
+<img width="1920" height="1080" alt="privacy-redirect-plus-image" src="https://github.com/user-attachments/assets/2267a677-5dc5-4fa1-aa34-9ffe3f5ad8e6" />
+
 
 ## What this browser extension does
 - Redirects requests of various platforms to their privacy-focused alternative frontends.
