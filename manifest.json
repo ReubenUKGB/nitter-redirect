@@ -1,5 +1,5 @@
 {
-  "name": "Privacy Redirect Plus",
+  "name": "Simple Privacy Redirect",
   "description": "A lightweight tool that ensures requests to various platforms redirect to their privacy-focused alternative frontends.",
   "version": "1.0.5",
   "manifest_version": 3,
