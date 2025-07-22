@@ -1,11 +1,11 @@
-# Privacy Redirect Plus
+# Simple Privacy Redirect
 
-<img width="1920" height="1080" alt="privacy-redirect-plus-image" src="https://github.com/user-attachments/assets/c6a764b0-7bd1-48cf-81bb-c49276710ca5" />
+<img width="1920" height="1080" alt="privacy-redirect-plus-image" src="https://github.com/user-attachments/assets/2267a677-5dc5-4fa1-aa34-9ffe3f5ad8e6" />
 
 ## What this browser extension does
 - Redirects requests of various platforms to their privacy-focused alternative frontends.
   
-- Does not execute any client-side script.
+- Does not include any client-side script.
 
 - Uses regex-based declarative rulesets and browser permissions to function.
 
@@ -22,6 +22,16 @@
 **Q:** How do I disable redirects for specific platforms?
 
 **A:** Redirects can be disabled by removing site access for related domains in the extensions details page.
+
+## Development
+
+Install [Node and NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), clone this repo and then run `npm i` in the root directory of the project to install all of the required libraries.
+
+|Command|Description|
+|:---:|:---:|
+|`npm run build`|Packages necessary assets into a ZIP file.|
+|`npm run clean`|Deletes auto-generated/packaged files and folders.|
+|`npm run dev`|Starts live-reloading development server and opens a targeted browser window for testing.|
 
 ## Notes
 
