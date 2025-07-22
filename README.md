@@ -5,23 +5,37 @@
 ## What this browser extension does
 - Redirects requests of various platforms to their privacy-focused alternative frontends.
   
-- Does not include any client-side script.
+- Does not include any client-side script to keep it minimally invasive.
 
 - Uses regex-based declarative rulesets and browser permissions to function.
 
 # Supported Platforms
 
-|Service|Proxy Frontend|Instance Used|Enabled|
-|:---:|:---:|:---:|:---:|
-|Reddit|Redlib|`redlib.perennialte.ch`|`True`|
-|X|Nitter|`nitter.net`|`True`|
-|Youtube|Invidious|`inv.nadeko.net`|`True`|
+|Service|Domains Redirected|Paths Redirected|Proxy Frontend|Instance Used|Enabled|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|Reddit|`www.reddit.com`|`*`|Redlib|`redlib.perennialte.ch`|`True`|
+|X|`mobile.x.com`, `x.com`|`*`, `i/broadcasts/*`|Nitter|`nitter.net`|`True`|
+|Youtube|`m.youtube.com`, `www.youtube.com`|`*`|Invidious|`inv.nadeko.net`|`True`|
+
+# Supported Browsers
+
+|Browser|Supported|
+|:---:|:---:|
+|Chrome|Yes|
   
 ## F.A.Q
 
 **Q:** How do I disable redirects for specific platforms?
 
 **A:** Redirects can be disabled by removing site access for related domains in the extensions details page.
+
+**Q:** Why don't some redirects work if I click a link that should redirect?
+
+**A:** Some redirects won't work if the site uses client-side navigation as no new network request occurs.
+
+**Q:** Will there be a more expanded version to solve some of the shortfalls of not including client-side script?
+
+**A:** I will make a more dynamic "plus" edition which will use this version as a base but with client-side script for quality-of-life improvements, when I have the time to do so.
 
 ## Development
 
@@ -30,8 +44,8 @@ Install [Node and NPM](https://docs.npmjs.com/downloading-and-installing-node-js
 |Command|Description|
 |:---:|:---:|
 |`npm run build`|Packages necessary assets into a ZIP file.|
+|`npm run dev`|Starts a live-reloading development server and opens a targeted browser window for testing.|
 |`npm run clean`|Deletes auto-generated/packaged files and folders.|
-|`npm run dev`|Starts live-reloading development server and opens a targeted browser window for testing.|
 
 ## Notes
 
