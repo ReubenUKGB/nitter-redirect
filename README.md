@@ -23,6 +23,16 @@
 
 **A:** Redirects can be disabled by removing site access for related domains in the extensions details page.
 
+## Development
+
+Install [Node and NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), clone this repo and then run `npm i` in the root directory of the project to install all of the necessary libraries.
+
+|Command|Description|
+|:---:|:---:|
+|`npm run build`|Packages necessary assets into a ZIP file.|
+|`npm run clean`|Deletes auto-generated/packaged files and folders.|
+|`npm run dev`|Starts live-reloading development server and opens a targeted browser window for testing.|
+
 ## Notes
 
 This project was originally forked from [Old Reddit Redirect](https://github.com/tom-james-watson/old-reddit-redirect).
