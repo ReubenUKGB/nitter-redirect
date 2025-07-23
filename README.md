@@ -24,7 +24,7 @@
 |:---:|:---:|:---:|:---:|:---:|
 |<img width="48" height="48" alt="SmallLogo" src="https://github.com/user-attachments/assets/832e0bdf-8f5b-456a-b07e-6ac565f25367" />|Yes|V3|Coming Soon|
 |<img width="48" height="48" alt="VisualElements_150" src="https://github.com/user-attachments/assets/a7cb5103-8134-41d7-9169-ab249e837cec" />|Yes|V3|Coming Soon|
-|<img width="160" height="160" alt="logo" src="https://github.com/user-attachments/assets/93e694cb-ba43-47e4-8bad-53d9839bd559" />|Yes|V3|Coming Soon|May fail to redirect some domains|
+|<img width="48" height="48" alt="logo" src="https://github.com/user-attachments/assets/93e694cb-ba43-47e4-8bad-53d9839bd559" />|Yes|V3|Coming Soon|May fail to redirect some domains|
   
 ## F.A.Q
 
