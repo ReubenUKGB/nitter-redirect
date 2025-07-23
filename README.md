@@ -20,9 +20,10 @@
 
 # Supported Browsers
 
-|Browser|Supported|
-|:---:|:---:|
-|Chrome|Yes|
+|Browser|Supported|Manifest Version|Install From|
+|:---:|:---:|:---:|:---:|
+|<img width="48" height="48" alt="SmallLogo" src="https://github.com/user-attachments/assets/832e0bdf-8f5b-456a-b07e-6ac565f25367" />|Yes|V3|Coming Soon|
+|<img width="48" height="48" alt="VisualElements_150" src="https://github.com/user-attachments/assets/a7cb5103-8134-41d7-9169-ab249e837cec" />|Yes|V3|Coming Soon|
   
 ## F.A.Q
 
