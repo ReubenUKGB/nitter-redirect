@@ -13,10 +13,11 @@
 
 |Platform|Domains Redirected|Paths Redirected|Proxy Frontend|Instance Used|Enabled|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|<img width="32" height="32" alt="Medium-Icon-White" src="https://github.com/user-attachments/assets/051d2f45-54ff-4706-8af4-06b3a871b43a" />|`medium.com`|`*`|Scribe|`scribe.rip`|`True`|
-|<img width="32" height="32" alt="Reddit_Icon_FullColor" src="https://github.com/user-attachments/assets/aca193d0-fd46-4f47-ace9-53433b8ff921" />|`www.reddit.com`|`*`|Redlib|`redlib.perennialte.ch`|`True`|
-|<img width="32" height="32" alt="logo-white" src="https://github.com/user-attachments/assets/597c843e-9894-4185-8dcc-6da4fffd1a65" />|`mobile.x.com`, `x.com`, `nitter.net`|`*`, `i/broadcasts/*`|Nitter|`nitter.net`|`True`|
-|<img width="32" height="22" alt="YouTube_full-color_icon_(2024) svg" src="https://github.com/user-attachments/assets/96929b09-295d-4d9e-8981-b538cf58249d" />|`m.youtube.com`, `www.youtube.com`|`*`|Invidious|`inv.nadeko.net`|`True`|
+|<img width="32" height="32" alt="Medium-Icon-White" src="https://github.com/user-attachments/assets/051d2f45-54ff-4706-8af4-06b3a871b43a" />|`m.medium.com`,`medium.com`, `www.medium.com`|`*`|Scribe|`scribe.rip`|`True`|
+|<img width="32" height="32" alt="Reddit_Icon_FullColor" src="https://github.com/user-attachments/assets/aca193d0-fd46-4f47-ace9-53433b8ff921" />|`m.reddit.com`,`mobile.reddit.com`,`reddit.com`,`www.reddit.com`|`*`|Redlib|`redlib.perennialte.ch`|`True`|
+|<img width="32" height="32" alt="glitch_flat_purple" src="https://github.com/user-attachments/assets/041adec4-6e39-485a-808b-d2bdc5270a04" />|`m.twitch.tv`, `mobile.twitch.tv`, `twitch.tv`, `www.twitch.tv`|`*`|SafeTwitch|`safetwitch.drgns.space`|`True`|
+|<img width="32" height="32" alt="logo-white" src="https://github.com/user-attachments/assets/597c843e-9894-4185-8dcc-6da4fffd1a65" />|`mobile.x.com`, `www.x.com`, `x.com`, `nitter.net`|`*`, `i/broadcasts/*`|Nitter|`nitter.net`|`True`|
+|<img width="32" height="22" alt="YouTube_full-color_icon" src="https://github.com/user-attachments/assets/96929b09-295d-4d9e-8981-b538cf58249d" />|`m.youtube.com`, `www.youtube.com`, `youtube.com`, `youtu.be`|`*`|Invidious|`inv.nadeko.net`|`True`|
 
 # Browser Support
 
@@ -25,7 +26,7 @@
 |<img width="32" height="32" alt="SmallLogo" src="https://github.com/user-attachments/assets/832e0bdf-8f5b-456a-b07e-6ac565f25367" />|Yes|V3|Coming Soon|
 |<img width="32" height="32" alt="SmallLogo" src="https://github.com/user-attachments/assets/88dd6cdd-66ba-4780-9995-e0adf456ebaa" />|Yes|V3|Coming Soon|
 |<img width="32" height="32" alt="VisualElements_150" src="https://github.com/user-attachments/assets/a7cb5103-8134-41d7-9169-ab249e837cec" />|Yes|V3|Coming Soon|
-|<img width="32" height="32" alt="logo" src="https://github.com/user-attachments/assets/93e694cb-ba43-47e4-8bad-53d9839bd559" />|Yes|V3|Coming Soon|May fail to redirect `youtube.com` but `youtu.be` works|
+|<img width="32" height="32" alt="logo" src="https://github.com/user-attachments/assets/93e694cb-ba43-47e4-8bad-53d9839bd559" />|Yes|V3|Coming Soon|May fail to redirect `youtube.com` & `www.youtube.com`|
 
 ## F.A.Q
 
