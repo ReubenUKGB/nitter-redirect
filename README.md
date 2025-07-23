@@ -47,6 +47,7 @@ Install [Node and NPM](https://docs.npmjs.com/downloading-and-installing-node-js
 
 |Command|Description|
 |:---:|:---:|
+|`npm run lint`|Analyses project files for errors and best practices.|
 |`npm run build`|Packages necessary assets into a ZIP file.|
 |`npm run dev`|Starts a live-reloading development server and opens a targeted browser window for testing.|
 |`npm run clean`|Deletes auto-generated/packaged files and folders.|
