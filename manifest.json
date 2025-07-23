@@ -1,7 +1,7 @@
 {
   "name": "Simple Privacy Redirect",
   "description": "A lightweight tool that ensures requests to various platforms redirect to their privacy-focused alternative frontends.",
-  "version": "1.0.5",
+  "version": "1.1",
   "manifest_version": 3,
   "browser_specific_settings": {
     "gecko": {
@@ -28,25 +28,42 @@
   ],
   "permissions": ["declarativeNetRequest"],
   "host_permissions": [
+    "*://m.medium.com/*",
+    "*://m.reddit.com/*",
+    "*://m.twitch.tv/*",
     "*://m.youtube.com/*",
     "*://medium.com/*",
+    "*://mobile.reddit.com/*",
+    "*://mobile.twitch.tv/*",
     "*://mobile.x.com/*",
     "*://nitter.net/*",
+    "*://reddit.com/*",
+    "*://twitch.tv/*",
+    "*://www.medium.com/*",
     "*://www.reddit.com/*",
+    "*://www.twitch.tv/*",
+    "*://www.x.com/*",
     "*://www.youtube.com/*",
-    "*://x.com/*"
+    "*://x.com/*",
+    "*://youtu.be/*",
+    "*://youtube.com/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
+      {
+        "id": "medium_redirect_ruleset",
+        "enabled": true,
+        "path": "config/medium_rules.json"
+      },
       {
         "id": "reddit_redirect_ruleset",
         "enabled": true,
         "path": "config/reddit_rules.json"
       },
       {
-        "id": "medium_redirect_ruleset",
+        "id": "twitch_redirect_ruleset",
         "enabled": true,
-        "path": "config/medium_rules.json"
+        "path": "config/twitch_rules.json"
       },
       {
         "id": "x_redirect_ruleset",

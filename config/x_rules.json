@@ -14,7 +14,7 @@
     "id": 2,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https://(mobile\\.)?x\\.com/.*",
+      "regexFilter": "^https://(www\\.|mobile\\.)?x\\.com/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {

@@ -3,14 +3,14 @@
     "id": 1,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https://(www\\.|mobile\\.|m\\.)?reddit\\.com/.*",
+      "regexFilter": "^https://(www\\.|mobile\\.|m\\.)?twitch\\.tv/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {
       "type": "redirect",
       "redirect": {
         "transform": {
-          "host": "redlib.perennialte.ch"
+          "host": "safetwitch.drgns.space"
         }
       }
     }
