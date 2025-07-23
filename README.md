@@ -13,17 +13,20 @@
 
 |Platform|Domains Redirected|Paths Redirected|Proxy Frontend|Instance Used|Enabled|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|Medium|`medium.com`|`*`|Scribe|`scribe.rip`|`True`|
-|Reddit|`www.reddit.com`|`*`|Redlib|`redlib.perennialte.ch`|`True`|
-|X|`mobile.x.com`, `x.com`|`*`, `i/broadcasts/*`|Nitter|`nitter.net`|`True`|
-|Youtube|`m.youtube.com`, `www.youtube.com`|`*`|Invidious|`inv.nadeko.net`|`True`|
+|<img width="32" height="32" alt="Medium-Icon-White" src="https://github.com/user-attachments/assets/051d2f45-54ff-4706-8af4-06b3a871b43a" />|`medium.com`|`*`|Scribe|`scribe.rip`|`True`|
+|<img width="32" height="32" alt="Reddit_Icon_FullColor" src="https://github.com/user-attachments/assets/aca193d0-fd46-4f47-ace9-53433b8ff921" />|`www.reddit.com`|`*`|Redlib|`redlib.perennialte.ch`|`True`|
+|<img width="32" height="32" alt="logo-white" src="https://github.com/user-attachments/assets/597c843e-9894-4185-8dcc-6da4fffd1a65" />|`mobile.x.com`, `x.com`, `nitter.net`|`*`, `i/broadcasts/*`|Nitter|`nitter.net`|`True`|
+|<img width="32" height="22" alt="YouTube_full-color_icon_(2024) svg" src="https://github.com/user-attachments/assets/96929b09-295d-4d9e-8981-b538cf58249d" />|`m.youtube.com`, `www.youtube.com`|`*`|Invidious|`inv.nadeko.net`|`True`|
 
-# Supported Browsers
+# Browser Support
 
-|Browser|Supported|
-|:---:|:---:|
-|Chrome|Yes|
-  
+|Browser|Supported|Manifest Version|Install From|Notes|
+|:---:|:---:|:---:|:---:|:---:|
+|<img width="32" height="32" alt="SmallLogo" src="https://github.com/user-attachments/assets/832e0bdf-8f5b-456a-b07e-6ac565f25367" />|Yes|V3|Coming Soon|
+|<img width="32" height="32" alt="SmallLogo" src="https://github.com/user-attachments/assets/88dd6cdd-66ba-4780-9995-e0adf456ebaa" />|Yes|V3|Coming Soon|
+|<img width="32" height="32" alt="VisualElements_150" src="https://github.com/user-attachments/assets/a7cb5103-8134-41d7-9169-ab249e837cec" />|Yes|V3|Coming Soon|
+|<img width="32" height="32" alt="logo" src="https://github.com/user-attachments/assets/93e694cb-ba43-47e4-8bad-53d9839bd559" />|Yes|V3|Coming Soon|May fail to redirect `youtube.com` but `youtu.be` works|
+
 ## F.A.Q
 
 **Q:** How do I disable redirects for specific platforms?
