@@ -32,7 +32,7 @@
 
 **Q:** How do I disable redirects for specific platforms?
 
-**A:** Redirects can be disabled by removing site access for related domains in the extensions details page.
+**A:** Redirects can be disabled by removing site access for related FQDNs in the extensions details page.
 
 **Q:** Why don't some redirects work if I click a link that should redirect?
 
