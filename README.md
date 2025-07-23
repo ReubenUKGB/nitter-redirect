@@ -13,10 +13,10 @@
 
 |Platform|Domains Redirected|Paths Redirected|Proxy Frontend|Instance Used|Enabled|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|<a href="https://medium.com" target="_blank"><img width="32" height="32" alt="Medium-Icon-White" src="https://github.com/user-attachments/assets/051d2f45-54ff-4706-8af4-06b3a871b43a" /></a>|`medium.com`|`*`|Scribe|`scribe.rip`|`True`|
-|<a href="https://www.reddit.com" target="_blank"><img width="32" height="32" alt="Reddit_Icon_FullColor" src="https://github.com/user-attachments/assets/aca193d0-fd46-4f47-ace9-53433b8ff921" /></a>|`www.reddit.com`|`*`|Redlib|`redlib.perennialte.ch`|`True`|
-|<a href="https://x.com" target="_blank"><img width="32" height="32" alt="logo-white" src="https://github.com/user-attachments/assets/597c843e-9894-4185-8dcc-6da4fffd1a65" /></a>|`mobile.x.com`, `x.com`, `nitter.net`|`*`, `i/broadcasts/*`|Nitter|`nitter.net`|`True`|
-|<a href="https:/www.youtube.com" target="_blank"><img width="32" height="22" alt="YouTube_full-color_icon_(2024) svg" src="https://github.com/user-attachments/assets/96929b09-295d-4d9e-8981-b538cf58249d" /></a>|`m.youtube.com`, `www.youtube.com`|`*`|Invidious|`inv.nadeko.net`|`True`|
+|<img width="32" height="32" alt="Medium-Icon-White" src="https://github.com/user-attachments/assets/051d2f45-54ff-4706-8af4-06b3a871b43a" />|`medium.com`|`*`|Scribe|`scribe.rip`|`True`|
+|<img width="32" height="32" alt="Reddit_Icon_FullColor" src="https://github.com/user-attachments/assets/aca193d0-fd46-4f47-ace9-53433b8ff921" />|`www.reddit.com`|`*`|Redlib|`redlib.perennialte.ch`|`True`|
+|<img width="32" height="32" alt="logo-white" src="https://github.com/user-attachments/assets/597c843e-9894-4185-8dcc-6da4fffd1a65" />|`mobile.x.com`, `x.com`, `nitter.net`|`*`, `i/broadcasts/*`|Nitter|`nitter.net`|`True`|
+|<img width="32" height="22" alt="YouTube_full-color_icon_(2024) svg" src="https://github.com/user-attachments/assets/96929b09-295d-4d9e-8981-b538cf58249d" />|`m.youtube.com`, `www.youtube.com`|`*`|Invidious|`inv.nadeko.net`|`True`|
 
 # Browser Support
 
