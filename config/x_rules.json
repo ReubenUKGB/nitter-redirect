@@ -6,7 +6,7 @@
       "type": "allow"
     },
     "condition": {
-      "regexFilter": "^https://(mobile\\.)?x\\.com/i/broadcasts/.*",
+      "regexFilter": "^https?://(www\\.|mobile\\.)?x\\.com/i/broadcasts/.*",
       "resourceTypes": ["main_frame"]
     }
   },
@@ -14,7 +14,7 @@
     "id": 2,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https://(www\\.|mobile\\.)?x\\.com/.*",
+      "regexFilter": "^https?://(www\\.|mobile\\.)?x\\.com/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {
@@ -30,7 +30,7 @@
     "id": 3,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https://nitter\\.net/i/broadcasts/.*",
+      "regexFilter": "^https?://nitter\\.net/i/broadcasts/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {

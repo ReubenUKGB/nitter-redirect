@@ -28,6 +28,14 @@
   ],
   "permissions": ["declarativeNetRequest"],
   "host_permissions": [
+    "*://au.pinterest.com/*",
+    "*://ca.pinterest.com/*",
+    "*://de.pinterest.com/*",
+    "*://es.pinterest.com/*",
+    "*://fr.pinterest.com/*",
+    "*://github.com/*",
+    "*://goodreads.com/*",
+    "*://it.pinterest.com/*",
     "*://m.medium.com/*",
     "*://m.reddit.com/*",
     "*://m.twitch.tv/*",
@@ -36,10 +44,17 @@
     "*://mobile.reddit.com/*",
     "*://mobile.twitch.tv/*",
     "*://mobile.x.com/*",
+    "*://mx.pinterest.com/*",
     "*://nitter.net/*",
+    "*://pinterest.com/*",
+    "*://pin.it/*",
     "*://reddit.com/*",
     "*://twitch.tv/*",
+    "*://uk.pinterest.com/*",
+    "*://www.github.com/*",
+    "*://www.goodreads.com/*",
     "*://www.medium.com/*",
+    "*://www.pinterest.com/*",
     "*://www.reddit.com/*",
     "*://www.twitch.tv/*",
     "*://www.x.com/*",
@@ -51,9 +66,24 @@
   "declarative_net_request": {
     "rule_resources": [
       {
+        "id": "github_redirect_ruleset",
+        "enabled": true,
+        "path": "config/github_rules.json"
+      },
+      {
+        "id": "goodreads_redirect_ruleset",
+        "enabled": true,
+        "path": "config/goodreads_rules.json"
+      },
+      {
         "id": "medium_redirect_ruleset",
         "enabled": true,
         "path": "config/medium_rules.json"
+      },
+      {
+        "id": "pinterest_redirect_ruleset",
+        "enabled": true,
+        "path": "config/pinterest_rules.json"
       },
       {
         "id": "reddit_redirect_ruleset",

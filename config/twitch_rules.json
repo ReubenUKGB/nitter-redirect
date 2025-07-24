@@ -3,7 +3,7 @@
     "id": 1,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https://(www\\.|mobile\\.|m\\.)?twitch\\.tv/.*",
+      "regexFilter": "^https?://(www\\.|mobile\\.|m\\.)?twitch\\.tv/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {

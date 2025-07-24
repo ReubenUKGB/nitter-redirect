@@ -3,14 +3,14 @@
     "id": 1,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https?://(www\\.|m\\.)?medium\\.com/.*",
+      "regexFilter": "^https?://(www\\.)?goodreads\\.com/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {
       "type": "redirect",
       "redirect": {
         "transform": {
-          "host": "scribe.rip"
+          "host": "biblioreads.eu.org"
         }
       }
     }
