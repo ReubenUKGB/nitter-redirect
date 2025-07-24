@@ -3,7 +3,7 @@
     "id": 1,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https?://(www\\.|uk\\.|ca\\.|fr\\.|de\\.|it\\.|es\\.|au\\.|mx\\.)?pinterest\\.com/.*",
+      "regexFilter": "^https?://([a-z0-9-]+\\.)*pinterest\\.com/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {

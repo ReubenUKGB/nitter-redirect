@@ -1,9 +1,20 @@
 [
   {
     "id": 1,
+    "priority": 2,
+    "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "regexFilter": "^https?://old\\.reddit\\.com/.*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https?://(www\\.|mobile\\.|m\\.)?reddit\\.com/.*",
+      "regexFilter": "^https?://([a-z0-9-]+\\.)*reddit\\.com/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {

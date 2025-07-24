@@ -6,7 +6,7 @@
       "type": "allow"
     },
     "condition": {
-      "regexFilter": "^https?://(www\\.|mobile\\.)?x\\.com/i/broadcasts/.*",
+      "regexFilter": "^https?://([a-z0-9-]+\\.)*x\\.com/i/broadcasts/.*",
       "resourceTypes": ["main_frame"]
     }
   },
@@ -14,7 +14,7 @@
     "id": 2,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https?://(www\\.|mobile\\.)?x\\.com/.*",
+      "regexFilter": "^https?://([a-z0-9-]+\\.)*x\\.com/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {

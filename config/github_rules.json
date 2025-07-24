@@ -3,7 +3,7 @@
     "id": 1,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https?://(www\\.)?github\\.com/.*",
+      "regexFilter": "^https?://([a-z0-9-]+\\.)*github\\.com/.*",
       "resourceTypes": ["main_frame"]
     },
     "action": {
